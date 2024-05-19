@@ -19,5 +19,6 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
+        // $this->call(Jobseeder::class); this when you want to run other seeder from one seeder file
     }
 }
