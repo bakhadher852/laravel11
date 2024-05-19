@@ -109,15 +109,9 @@
         </div>
     </div>
 </nav>
-<header class="bg-white shadow">
-    <div class="flex justify-between mx-auto max-w-7xl px-4 py-4 py-6 sm:px-6 lg:px-8">
-        <h1>Heading </h1>
-        <x-button href="/jobs/create">Create
-            Job</x-button>
-    </div>
-</header>
 
-<body class="font-sans antialiased dark:bg-black dark:text-white/50">
+
+<body class="font-sans antialiased dark:bg-black dark:text-white/50  ">
     {{$slot}}
 
 </body>
